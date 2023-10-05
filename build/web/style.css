@@ -1,0 +1,125 @@
+body {
+    background-image: url('Fondo.jpg');
+    background-size: cover; /* Esto asegura que la imagen de fondo cubra todo el área del body */
+    background-position: center center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #343a40; /* Color de fondo del NavBar */
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto elevado */
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave para el color del texto */
+}
+
+.nav-list li a:hover {
+    color: #28a745; /* Color al pasar el ratón por encima */
+}
+
+.registration-form {
+    margin-top: 20px;
+}
+
+.registration-form label,
+.registration-form input,
+.registration-form select {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.registration-form button {
+    background-color: #28a745; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo del botón */
+}
+
+.registration-form button:hover {
+    background-color: #218838; /* Color al pasar el ratón por encima del botón */
+}
+
+
+/* En style.css */
+
+.hero-section {
+    background: #f8f9fa; /* Color de fondo para la sección de bienvenida */
+    padding: 100px 0; /* Espaciado interno para la sección de bienvenida */
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    color: #007bff; /* Color del texto del título */
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #333; /* Color del texto del párrafo */
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo del botón de CTA */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo del botón */
+}
+
+.cta-button:hover {
+    background-color: #0056b3; 
+}
+
+@media (max-width: 768px) {
+    
+}
+ 
+@media (max-width: 480px) {
+    
+}
+
+.registrate-section,
+.contactanos-section {
+    padding: 20px; /* Ajusta el relleno según tus necesidades */
+    margin: 0; /* Ajusta el margen según tus necesidades */
+}
